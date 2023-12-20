@@ -111,6 +111,17 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "",
+                    "id": "3bd0a7a4-5350-4de4-95e6-a186743d95d1",
+                    "path": "<Gamepad>/rightTrigger",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad2",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "Keyboard",
                     "id": "d9879bd3-08fc-4e28-97bd-5ee14ec38be3",
                     "path": "2DVector",
@@ -178,6 +189,17 @@
                 },
                 {
                     "name": "",
+                    "id": "6762a9e9-dd8d-4692-a382-4c95073cf991",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad2",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "73c0c27f-f796-424e-a561-f7a8a0074392",
                     "path": "<Mouse>/position",
                     "interactions": "",
@@ -189,8 +211,19 @@
                 },
                 {
                     "name": "",
-                    "id": "cf33723a-66fe-48df-b7a7-ad3a67098f4f",
-                    "path": "<XInputController>/leftStick",
+                    "id": "ff8d72c2-5b63-49fa-98c6-24dbe95e498e",
+                    "path": "<Gamepad>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad2",
+                    "action": "Look",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3fb9081a-7605-48d5-bde8-e0a93983bda0",
+                    "path": "<XInputController>/rightStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "Gamepad",
@@ -309,6 +342,17 @@
                     "isPartOfComposite": false
                 },
                 {
+                    "name": "",
+                    "id": "187c346a-9915-4ca6-be37-58d3e4686cd6",
+                    "path": "<Gamepad>/buttonNorth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad2",
+                    "action": "ToggleShotgun",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
                     "name": "One Modifier",
                     "id": "15400e8d-2301-472c-b68b-1fc7291e6572",
                     "path": "OneModifier",
@@ -348,6 +392,28 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "M&K1",
+                    "action": "ToggleInvincible",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b5a4355c-f07e-4d34-97e6-b772d50bf5d0",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad2",
+                    "action": "ToggleInvincible",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "11ecd3ec-aa51-433e-8fa3-d9b2c5f90ecd",
+                    "path": "<XInputController>/dpad/left",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Gamepad",
                     "action": "ToggleInvincible",
                     "isComposite": false,
                     "isPartOfComposite": false
@@ -914,6 +980,11 @@
                     "isOR": false
                 }
             ]
+        },
+        {
+            "name": "Gamepad2",
+            "bindingGroup": "Gamepad2",
+            "devices": []
         }
     ]
 }
